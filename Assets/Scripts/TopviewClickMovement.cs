@@ -16,7 +16,7 @@ public class TopviewClickMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         if (Input.GetButtonDown("Fire2"))
         {
             RaycastHit hit;
@@ -41,6 +41,7 @@ public class TopviewClickMovement : MonoBehaviour {
         {
             isMoving = false;
         }
+        //TODO: 길찾기 알고리즘을 구현할 것.
 
     }
 }

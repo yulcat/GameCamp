@@ -11,7 +11,7 @@ public class TopviewCharacterMovement : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         transform.Translate(new Vector3(Input.GetAxis("Horizontal") * movement , 0f, Input.GetAxis("Vertical") * movement));
 	
 	}
