@@ -6,7 +6,7 @@ public class TopviewClickMovement : MonoBehaviour {
     Vector3 originalPosition;
     Vector3 clickedPosition;
     bool isMoving = false;
-    public float movementSpeed = 1;
+    public float movementSpeed = 1f;
     float startTime;
     float journeyLength;
 
@@ -33,9 +33,12 @@ public class TopviewClickMovement : MonoBehaviour {
         }
         if (isMoving)
         {
-            float distCovered = (Time.time - startTime) * movementSpeed;
-            float fracJourney = distCovered / journeyLength;
-            transform.position = Vector3.Lerp(transform.position, clickedPosition, fracJourney);
+
+                float distCovered = (Time.time - startTime) * movementSpeed;
+                float fracJourney = distCovered / journeyLength;
+                transform.position = Vector3.Lerp(transform.position, clickedPosition, fracJourney);
+           
+
         }
         if (transform.position.Equals(clickedPosition))
         {
