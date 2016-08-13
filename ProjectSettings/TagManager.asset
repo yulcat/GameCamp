@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DragonBody
   - KnightBody
+  - spawner
   layers:
   - Default
   - TransparentFX
