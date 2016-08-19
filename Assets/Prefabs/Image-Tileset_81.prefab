@@ -369,7 +369,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: test end
+          value: test win
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -621,7 +621,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 7
+          value: 4
         fsmIntParams:
         - useVariable: 0
           name: 
@@ -824,7 +824,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 10
+        value: 100
       boolVariables: []
       stringVariables: []
       vector2Variables: []
@@ -868,7 +868,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

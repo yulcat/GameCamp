@@ -251,7 +251,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 0
+        value: 5
       boolVariables: []
       stringVariables:
       - useVariable: 1

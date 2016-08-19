@@ -22,6 +22,7 @@ GameObject:
   - 212: {fileID: 212000013284164510}
   - 61: {fileID: 61000012864209366}
   - 114: {fileID: 114000011420459298}
+  - 114: {fileID: 114000011484317256}
   m_Layer: 0
   m_Name: Image-Tileset_15
   m_TagString: Untagged
@@ -304,7 +305,18 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114000011484317256
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013410453190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: de72a6d2da64d114d95e3c5a01cfaec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212000013284164510
 SpriteRenderer:
   m_ObjectHideFlags: 1
