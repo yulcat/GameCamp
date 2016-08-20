@@ -62,8 +62,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.38, y: -0.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -9.38, y: 0.42, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 482518}
@@ -109,9 +109,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0.5966712, y: -0.3366179}
+  m_Offset: {x: 0.77376187, y: -0.53057384}
   serializedVersion: 2
-  m_Size: {x: 0.807518, y: 0.9438963}
+  m_Size: {x: 0.7231877, y: 1.3318081}
 --- !u!95 &9520996
 Animator:
   serializedVersion: 3
@@ -285,9 +285,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0.5548167, y: 0}
+  m_Offset: {x: 0.8078022, y: 0.06746292}
   serializedVersion: 2
-  m_Size: {x: 0.32294285, y: 1}
+  m_Size: {x: 0.5590637, y: 1.438509}
 --- !u!61 &61000012124429158
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -383,7 +383,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: KnightBody
+        value: DragonBody
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -419,7 +419,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

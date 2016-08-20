@@ -57,8 +57,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.95, y: -0.01, z: 3.72}
-  m_LocalScale: {x: 1, y: 0.97499996, z: 1}
+  m_LocalPosition: {x: 9.95, y: 0.51, z: 3.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 470998}
@@ -76,7 +76,7 @@ Transform:
   m_GameObject: {fileID: 116500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.12598604}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.12598604}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 414998}
@@ -101,7 +101,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174078}
-  m_UseAutoMass: 0
+  m_UseAutoMass: 1
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
@@ -731,7 +731,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
@@ -870,7 +870,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9.8
+          value: 15
         - useVariable: 0
           name: 
           tooltip: 
@@ -2487,7 +2487,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011602399570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.72, z: -4.22}
+  m_LocalPosition: {x: -4.89, y: 0.2, z: -4.22}
   m_LocalScale: {x: 1, y: 1.0256411, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -2706,9 +2706,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0.18033338, y: 0.04151626}
+  m_Offset: {x: 0.5483036, y: -0.038045883}
   serializedVersion: 2
-  m_Size: {x: 0.9918012, y: 1.4850974}
+  m_Size: {x: 1.7277422, y: 2.9569774}
 --- !u!81 &81000014089365966
 AudioListener:
   m_ObjectHideFlags: 1
