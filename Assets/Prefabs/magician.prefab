@@ -596,7 +596,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 1
+        value: 2
       - useVariable: 1
         name: HP
         tooltip: 
